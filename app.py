@@ -277,7 +277,7 @@ with st.sidebar:
     <div style='text-align:center; padding: 1rem 0;'>
         <div style='font-size: 2.5rem;'>🧠</div>
         <div style='color: #63b3ed; font-size: 1.3rem; font-weight: 700;'>BAi Studio</div>
-        <div style='color: #718096; font-size: 0.8rem;'>Business Analyst Intelligence</div>
+        <div style='color: #718096; font-size: 0.8rem;'>Business Analysis Intelligence</div>
     </div>
     """, unsafe_allow_html=True)
 
