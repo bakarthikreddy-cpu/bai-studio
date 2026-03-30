@@ -1,4 +1,4 @@
-import streamlit as st
+        st.markdown(f"<div class='metric-card'><div class='metric-value'>{st.session_state.run_count}</div><div class='metric-label'>Runs</div></div>", unsafe_allow_html=True)import streamlit as st
 from groq import Groq
 from datetime import datetime
 import fitz
