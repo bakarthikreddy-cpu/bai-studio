@@ -1,4 +1,4 @@
-        st.markdown(f"<div class='metric-card'><div class='metric-value'>{st.session_state.run_count}</div><div class='metric-label'>Runs</div></div>", unsafe_allow_html=True)import streamlit as st
+import streamlit as st
 from groq import Groq
 from datetime import datetime
 import fitz
@@ -217,8 +217,7 @@ with st.sidebar:
     st.markdown("---")
     col1, col2 = st.columns(2)
     with col1:
-        st.markdown(f"<div class='metric-card'
-><div class='metric-value'>{st.session_state.run_count}</div><div class='metric-label'>Runs</div></div>", unsafe_allow_html=True)
+        st.markdown(f"<div class='metric-card'><div class='metric-value'>{st.session_state.run_count}</div><div class='metric-label'>Runs</div></div>", unsafe_allow_html=True)
     with col2:
         st.markdown(f"<div class='metric-card'><div class='metric-value'>{len(st.session_state.history)}</div><div class='metric-label'>Saved</div></div>", unsafe_allow_html=True)
     if st.session_state.history:
